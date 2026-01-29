@@ -1,0 +1,49 @@
+/*Standard Body Styling*/
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+    margin: 0;
+}
+/*Centering the main content*/
+#main-container {
+    background-color: white;
+    width: 700px; /*Fixed width since we are't doing responsiveness yet*/
+    margin: 50px auto; /*Centers the div: 50px top&bottom, auto left&right*/
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+header {
+    text-align: center;
+}
+/*Styling the image*/
+#img-div img {
+    width: 100%; /*Makes image fill the 700px container*/
+    height: auto;
+    display: block;
+    margin: 10px 0;
+}
+
+#img-caption {
+    text-align: center;
+    font-size: 0.9em;
+    font-style: italic;
+    color: #666;
+}
+
+/*Styling the link button*/
+#tribute-info a {
+    display: inline-block;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+footer {
+    margin-top: 30px;
+    text-align: center;
+    border: 1px solid #eee;
+    padding-top: 10px;
+}
